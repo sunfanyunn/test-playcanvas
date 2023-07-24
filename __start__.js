@@ -213,14 +213,7 @@
                             console.error(err);
                         }
 
-                      app.start();
-
-                      //console.log(app.root.children);
-                      //console.log(app.root.children[0].children);
-                      //for (var i = 0; i < 10; i++) {
-                          //console.log(app.root.children[i].name);
-                      //}
-
+                        app.start();
                     });
                 });
             });

@@ -101,6 +101,5 @@ if __name__ == '__main__':
 
     process_html()
     insert_line_after_pattern('__codepen__.js', 'app.start()', '// INSERT_CODE')
-
-    # replace_strings_with_regex("__settings__.js", new_path=public_url)
-    # prepend_url_in_config("./config.json")
+    replace_strings_with_regex("__settings__.js", new_path=public_url)
+    prepend_url_in_config("./config.json")
